@@ -1,0 +1,15 @@
+body {
+    font-family: Arial;
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    gap: 10px;
+}
+
+input, select, textarea, button {
+    padding: 10px;
+}

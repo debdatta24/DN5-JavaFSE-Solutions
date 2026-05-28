@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Event Registration</h1>
+
+    <form id="registrationForm">
+        <input type="text" placeholder="Enter Name" required autofocus>
+
+        <input type="email" placeholder="Enter Email" required>
+
+        <input type="date" required>
+
+        <select required>
+            <option value="">Select Event</option>
+            <option>Music</option>
+            <option>Sports</option>
+            <option>Workshop</option>
+        </select>
+
+        <textarea placeholder="Enter Message"></textarea>
+
+        <button type="submit">Register</button>
+
+        <output id="confirmation"></output>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
